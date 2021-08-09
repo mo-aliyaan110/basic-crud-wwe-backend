@@ -1,0 +1,26 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "about the backend of the application, i.e get, post and put and delete, creating a schema and creating the model, creating the mongodb atlas and creating the cluster, making the connection of mongo cluster to the Compass, and connecting the cluter to your application..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoose",
+    "schema",
+    "model",
+    "connect"
+  ],
+  "author": "Mohammed Aliyaan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5"
+  }
+}
